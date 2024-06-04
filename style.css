@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-shadow: 0px 0px 15px #000000;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #ffffff;
+
+}
+
+.main-container, .bottom-container, .weather-display-container,
+.date-container, .location-container, .temperature-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    padding-top: 10px;
+    width: 60%;
+    gap: 12px;
+    color: #ffffff;
+}
+
+.weather-display-container {
+    flex-direction: row;
+    gap: 10px;
+    font-size: 3vw;
+}
+
+.weather-display-container > * {
+    flex: 1 1 0;
+}
+
+.location {
+    font-size: 5vw;
+}
+
+.temperature {
+    font-size: 9vw;
+}
+
+.bottom-container {
+    margin-top: 5px;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+h4 {
+    font-size: 4vw;
+    margin: 0;
+}
+
+button {
+    font-size: 2vw;
+    font-family: math;
+    border-radius: 5px;
+}
+
+.condition-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+
+.main-container {
+    background-color: rgba(0, 0, 0, 0.61);
+    padding-bottom: 20px;
+    border-radius: 5px;
+    width: 80%;
+}
